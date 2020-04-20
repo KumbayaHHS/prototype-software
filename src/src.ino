@@ -1,11 +1,18 @@
 #include <SPI.h>
 #include <WiFiNINA.h>
+#include <PubSubClient.h>
 
 #include "arduino_secrets.h"
 
 char ssid[] = SECRET_SSID;        // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 int status = WL_IDLE_STATUS;     // the WiFi radio's status
+
+//MQTT
+#define MQTT_BROKER       "maqiatto.com"
+#define MQTT_BROKER_PORT  1883
+#define MQTT_USERNAME     "your-maqiatto-user-name"
+#define MQTT_KEY          "your-maqiatto-broker-pass"
 
 void setup() {
   //Initialize serial and wait for port to open:
@@ -39,21 +46,7 @@ void setup() {
   Serial.println("You're connected to the network");
 }
 
-void loop() { 
-  Serial.print("Pinging ");
-  Serial.print(hostName);
-  Serial.print(": ");
-
-  pingResult = WiFi.ping(hostName);
-
-  if (pingResult >= 0) {
-    Serial.print("SUCCESS! RTT = ");
-    Serial.print(pingResult);
-    Serial.println(" ms");
-  } else {
-    Serial.print("FAILED! Error code: ");
-    Serial.println(pingResult);
-  }
+void loop() {
 
   delay(5000);
 }
