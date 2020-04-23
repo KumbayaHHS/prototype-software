@@ -52,6 +52,7 @@ jobs:
           arduino-cli core update-index
           arduino-cli core install ${{ matrix.arduino-platform }}
 
+      # We then install all the libraries the software use
       - name: Install libraries
         run: |
           arduino-cli lib install WiFiNINA
