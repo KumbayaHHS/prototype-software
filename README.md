@@ -2,13 +2,13 @@
 
 ## Table of content
 
-- [Description of the software](#I.-Description-of-the-software)
-- [Description of the device](#II.-Description-of-the-device)
-- [Development configuration](#III.-Development-configuration)
-    - [1. Setup the X.509 certificates for authentication](#1.-Setup-the-X.509-certificates-for-authentication)
-    - [2. Setup Azure IoT Hub](#2.-Setup-Azure-IoT-Hub)
-    - [3. Add a device to Azure IoT Hub](#3.-Add-a-device-to-Azure-IoT-Hub)
-    - [4. Setup the device](#4.-Setup-the-device)
+- [Description of the software](#I-Description-of-the-software)
+- [Description of the device](#II-Description-of-the-device)
+- [Development configuration](#III-Development-configuration)
+    - [1. Setup the X.509 certificates for authentication](#1-Setup-the-X.509-certificates-for-authentication)
+    - [2. Setup Azure IoT Hub](#2-Setup-Azure-IoT-Hub)
+    - [3. Add a device to Azure IoT Hub](#3-Add-a-device-to-Azure-IoT-Hub)
+    - [4. Setup the device](#4-Setup-the-device)
 
 ## I. Description of the software
 
