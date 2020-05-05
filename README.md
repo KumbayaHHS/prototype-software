@@ -22,7 +22,7 @@ Our prototype is composed of:
 
 ### Setup Azure IoT Hub
 
-**If you already have an azure IoT hub, go to the step of [adding a device to the hub](#Add a device to Azure IoT Hub).**
+**If you already have an azure IoT hub, go to the step of [adding a device to the hub](#Add-a-device-to-Azure-IoT-Hub).**
 
 - In the azure interface, click on the button "Create a resource".
 - Then click "Internet of Things" and "IoT Hub".
