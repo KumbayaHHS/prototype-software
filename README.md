@@ -6,6 +6,10 @@ Our prototype is composed of:
 - a pH sensor with a BNC connector
 - an NPK sensor with a RS485 shield as a bridge
 
+## A diagram of the prototype
+
+![Electrical diagram of the prototype](./img/prototype%20diagram.png)
+
 ## Prepare the device for development
 
 ### Setup the X.509 certificates for authentication
