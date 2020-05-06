@@ -1,10 +1,10 @@
 # prototype-software
 
-## Table of content
+## Table of contents
 
 - [Description of the software](#I-Description-of-the-software)
 - [Description of the device](#II-Description-of-the-device)
-- [Development configuration](#III-Development-configuration)
+- [Setup your development environment](#III-Setup-your-development-environment)
     - [1. Setup the X.509 certificates for authentication](#1-Setup-the-X.509-certificates-for-authentication)
     - [2. Setup Azure IoT Hub](#2-Setup-Azure-IoT-Hub)
     - [3. Add a device to Azure IoT Hub](#3-Add-a-device-to-Azure-IoT-Hub)
@@ -27,7 +27,7 @@ Our prototype is composed of:
 - a pH sensor with a BNC connector
 - an NPK sensor with a RS485 shield as a bridge
 
-## III. Development configuration
+## III. Setup your development environment
 
 ### 1. Setup the X.509 certificates for authentication
 
