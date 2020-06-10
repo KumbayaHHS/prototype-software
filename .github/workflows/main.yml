@@ -56,7 +56,7 @@ jobs:
       - name: Install libraries
         run: |
           arduino-cli lib install WiFiNINA
-          arduino-cli lib install PubSubClient
+          arduino-cli lib install MQTT
 
       # Finally, we compile the sketch, using the FQBN that was set
       # in the build matrix.
