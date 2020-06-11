@@ -5,9 +5,10 @@
 - [Description of the software](#I-Description-of-the-software)
 - [Description of the device](#II-Description-of-the-device)
 - [Setup your development environment](#III-setup-your-development-environment)
-    - [1. Setup Azure IoT Hub](#1-setup-azure-iot-hub)
-    - [2. Add a device to Azure IoT Hub](#2-add-a-device-to-azure-iot-hub)
-    - [3. Setup the device](#3-setup-the-device)
+    - [1. Setup Arduino IDE](#1-setup-arduino-ide)
+    - [2. Setup Azure IoT Hub](#2-setup-azure-iot-hub)
+    - [3. Add a device to Azure IoT Hub](#3-add-a-device-to-azure-iot-hub)
+    - [4. Setup the device](#4-setup-the-device)
 
 ## I. Description of the software
 
@@ -28,7 +29,13 @@ Our prototype is composed of:
 
 ## III. Setup your development environment
 
-### 1. Setup Azure IoT Hub
+### 1. Setup Arduino IDE
+
+You will need to install the following libraries:
+- WiFiNINA [link](https://www.arduino.cc/en/Reference/WiFiNINA)
+- MQTT [link](https://github.com/256dpi/arduino-mqtt)
+
+### 2. Setup Azure IoT Hub
 
 **If you already have an azure IoT hub, go to the step of [adding a device to the hub](#2-add-a-device-to-azure-iot-hub).**
 
@@ -36,7 +43,7 @@ Our prototype is composed of:
 - Then click "Internet of Things" and "IoT Hub".
 - Fill in the form (Name of the hub, etc...) and click on "Create". **You will have to wait a few minutes for the IoT Hub to be created and deployed.**
 
-### 2. Add a device to Azure IoT Hub
+### 3. Add a device to Azure IoT Hub
 
 - Click the button "Go to resource".
 - Now we can create a new IoT device, click "IoT Devices" under the "Explorers" heading.
@@ -44,7 +51,7 @@ Our prototype is composed of:
 - Fill the name with the device name in the "Device ID" field, then click the "Save" button to create the device.
 - You will now see a new device on the IoT Devices page.
 
-### 3. Setup the device
+### 4. Setup the device
 
 For this step, you will need the following information:
 - **HUB_NAME**: The name of the Azure IoT Hub
